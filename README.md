@@ -8,12 +8,16 @@ JavaScript フロントまわり技術の再整理用メモ
 
 ## Projects
 
-- [axios](https://github.com/miolab/js_pure_front/tree/master/axios)
+### [axios](https://github.com/miolab/js_pure_front/tree/master/axios)
 
-  Setup
+- Reference
+
+  - [GitHub](https://github.com/axios/axios)
+
+- Setup
 
   ```terminal
   $ yarn add axios
   ```
 
-- [guessing_card_game](https://github.com/miolab/js_pure_front/tree/master/guessing_card_game)
+### [guessing_card_game](https://github.com/miolab/js_pure_front/tree/master/guessing_card_game)
