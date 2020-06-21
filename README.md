@@ -2,4 +2,18 @@
 
 JavaScript フロントまわり技術の再整理用メモ
 
-- __素__ のJSメイン（なるべく）でコードを書いていく
+- **素** の JS メイン（なるべく）でコードを書いていく
+
+---
+
+## Projects
+
+- [axios](https://github.com/miolab/js_pure_front/tree/master/axios)
+
+  Setup
+
+  ```terminal
+  $ yarn add axios
+  ```
+
+- [guessing_card_game](https://github.com/miolab/js_pure_front/tree/master/guessing_card_game)
