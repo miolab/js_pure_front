@@ -53,12 +53,3 @@ JavaScript フロントまわり技術の再整理用メモ
 - [node_docker](https://github.com/miolab/node_docker)
 
   Node.js 開発用 Docker コンテナ
-
-## test
-
-- test
-- test
-- test
-- test
-- test
-- test
