@@ -2,13 +2,15 @@
 
 JavaScript フロントまわり技術の再整理用メモ
 
-- **素** の JS メイン（なるべく）でコードを書いていく
+- **素** の JS + JSライブラリ でコードを書いていく（なるべく）
 
 ---
 
 ## Projects
 
-- [axios](https://github.com/miolab/js_pure_front/tree/master/axios)
+- [Jest](https://github.com/miolab/js_pure_front/tree/master/axios)
+
+- [axios/](https://github.com/miolab/js_pure_front/tree/master/axios)
 
   - Reference
 
@@ -20,7 +22,7 @@ JavaScript フロントまわり技術の再整理用メモ
     $ yarn add axios
     ```
 
-- [guessing_card_game](https://github.com/miolab/js_pure_front/tree/master/guessing_card_game)
+- [guessing_card_game/](https://github.com/miolab/js_pure_front/tree/master/guessing_card_game)
 
 ---
 
