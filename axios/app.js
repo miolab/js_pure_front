@@ -1,20 +1,20 @@
 'use strict';
 
 const axios = require('axios').default;
-
 const urlJson = 'https://jsonplaceholder.typicode.com/users'
 
-let fetchId = 1
+async function appAxios() {
+  try {
+    const res = await axios.get(urlJson);
+    const params = res.data;
 
-axios.get(urlJson, {
-    params: {
-      id: fetchId
+    for (const param of params) {
+      console.log(`User ID : ${param.id} ${param.name}`);
     }
-  })
-  .then(res => {
-    console.log('Status :', res.status)
-    console.log('Data :', res.data)
-  })
-  .catch(err => {
-    console.log('Error :', err)
-  })
+  } catch (error) {
+    const status = error.response;
+    console.log(`Error! status : ${status}`);
+  };
+}
+
+appAxios();
