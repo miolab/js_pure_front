@@ -4,8 +4,12 @@
 
 // appAxios();
 
-const divElm = document.createElement('div');
+const tdElm = document.createElement('td');
+const tBody = document.getElementById('tbody');
 
-document.body.appendChild(divElm);
+window.onload = () => {
+  tBody.appendChild(tdElm);
 
-divElm.innerHTML = "test by im";
+  tdElm.classList.add('div-elm')
+  tdElm.innerHTML = "test by im";
+}
